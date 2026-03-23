@@ -48,7 +48,7 @@ curl https://raw.githubusercontent.com/cylon56/ofac-naughtylist/main/data/all_ad
 | Solana | 1 | 2025-11-19 | `data/chains/solana.json` |
 | Verge | 1 | 2021-04-15 | `data/chains/verge.json` |
 
-Additional supported chains (no current sanctions): Arbitrum, BSC, Ethereum Classic.
+Additional supported chains (no explicit sanctions): Arbitrum, BSC, Ethereum Classic. Note that EVM addresses sanctioned on Ethereum are valid on all EVM-compatible chains — an address flagged on Ethereum should be treated as sanctioned on Arbitrum, BSC, etc. as well. Check the `evm_compatible` field in the output to identify these addresses.
 
 Addresses that can't be mapped to a known chain are placed in `data/chains/unknown.json`.
 
