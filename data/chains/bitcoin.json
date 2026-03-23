@@ -1,0 +1,42 @@
+{
+  "address_count": 2,
+  "addresses": [
+    {
+      "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+      "date_listed": "2022-04-05",
+      "entity_id": 42001,
+      "entity_name": "GARANTEX EUROPE OU",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "XBT"
+      ],
+      "programs": [
+        "CYBER2"
+      ],
+      "source_feature_ids": [
+        55105
+      ]
+    },
+    {
+      "address": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+      "date_listed": "2022-04-14",
+      "entity_id": 39498,
+      "entity_name": "LAZARUS GROUP",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "XBT"
+      ],
+      "programs": [
+        "CYBER2",
+        "DPRK3"
+      ],
+      "source_feature_ids": [
+        52343
+      ]
+    }
+  ],
+  "chain": "bitcoin",
+  "last_updated": "2026-03-23T20:08:35Z",
+  "source_list": "SDN",
+  "source_xml_url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml"
+}

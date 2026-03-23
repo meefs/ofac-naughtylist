@@ -1,0 +1,167 @@
+{
+  "addresses": [
+    {
+      "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+      "chain": "bitcoin",
+      "date_listed": "2022-04-05",
+      "entity_id": 42001,
+      "entity_name": "GARANTEX EUROPE OU",
+      "ofac_tickers": [
+        "XBT"
+      ],
+      "programs": [
+        "CYBER2"
+      ]
+    },
+    {
+      "address": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+      "chain": "bitcoin",
+      "date_listed": "2022-04-14",
+      "entity_id": 39498,
+      "entity_name": "LAZARUS GROUP",
+      "ofac_tickers": [
+        "XBT"
+      ],
+      "programs": [
+        "CYBER2",
+        "DPRK3"
+      ]
+    },
+    {
+      "address": "XekiLaxnqpFb2m4NQAEcsKutZcZgcyfo6W",
+      "chain": "dash",
+      "date_listed": "2023-01-10",
+      "entity_id": 50001,
+      "entity_name": "TEST SANCTIONS ENTITY",
+      "ofac_tickers": [
+        "DASH"
+      ],
+      "programs": [
+        "SDGT"
+      ]
+    },
+    {
+      "address": "0x1234567890abcdef1234567890abcdef12345678",
+      "chain": "ethereum",
+      "date_listed": "2023-09-20",
+      "entity_id": 70001,
+      "entity_name": "MULTI CHAIN ENTITY",
+      "ofac_tickers": [
+        "USDC"
+      ],
+      "programs": [
+        "CYBER2"
+      ]
+    },
+    {
+      "address": "0x7F367cC41522cE07553e823bf3be79A889DEbe1B",
+      "chain": "ethereum",
+      "date_listed": "2022-04-14",
+      "entity_id": 39498,
+      "entity_name": "LAZARUS GROUP",
+      "ofac_tickers": [
+        "ETH"
+      ],
+      "programs": [
+        "CYBER2",
+        "DPRK3"
+      ]
+    },
+    {
+      "address": "0xd882cFc20F52f2599D84b8e8D58C7FB62cfE344b",
+      "chain": "ethereum",
+      "date_listed": "2022-04-14",
+      "entity_id": 39498,
+      "entity_name": "LAZARUS GROUP",
+      "ofac_tickers": [
+        "ETH",
+        "USDT"
+      ],
+      "programs": [
+        "CYBER2",
+        "DPRK3"
+      ]
+    },
+    {
+      "address": "LcHKx4Vy5Dxit94JYJ7pGg4dBbZFyv3Lz1",
+      "chain": "litecoin",
+      "date_listed": "2023-01-10",
+      "entity_id": 50001,
+      "entity_name": "TEST SANCTIONS ENTITY",
+      "ofac_tickers": [
+        "LTC"
+      ],
+      "programs": [
+        "SDGT"
+      ]
+    },
+    {
+      "address": "4A1BpBgHEVmjdLRWCFpYYzKvSHBGLgSLqF6bRcJHjHEZicxMGMPMQHiRg2FMVgqMPHh3EqD8RNE8KYS3kJf93cRK2RfFg",
+      "chain": "monero",
+      "date_listed": "2023-01-10",
+      "entity_id": 50001,
+      "entity_name": "TEST SANCTIONS ENTITY",
+      "ofac_tickers": [
+        "XMR"
+      ],
+      "programs": [
+        "SDGT"
+      ]
+    },
+    {
+      "address": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh",
+      "chain": "ripple",
+      "date_listed": "2023-01-10",
+      "entity_id": 50001,
+      "entity_name": "TEST SANCTIONS ENTITY",
+      "ofac_tickers": [
+        "XRP"
+      ],
+      "programs": [
+        "SDGT"
+      ]
+    },
+    {
+      "address": "TN2YVFiBnEhM2DFoDqGGoenYbGe8uVJJEY",
+      "chain": "tron",
+      "date_listed": "2022-04-05",
+      "entity_id": 42001,
+      "entity_name": "GARANTEX EUROPE OU",
+      "ofac_tickers": [
+        "USDT"
+      ],
+      "programs": [
+        "CYBER2"
+      ]
+    },
+    {
+      "address": "someunknownaddressformat12345",
+      "chain": "unknown",
+      "date_listed": "2023-06-15",
+      "entity_id": 60001,
+      "entity_name": "UNKNOWN TICKER ENTITY",
+      "ofac_tickers": [
+        "NEWTICKER"
+      ],
+      "programs": [
+        "SDGT"
+      ]
+    },
+    {
+      "address": "t1VpYgkRJB1iqMPRLM5oTgnihSbftyLkoGN",
+      "chain": "zcash",
+      "date_listed": "2023-01-10",
+      "entity_id": 50001,
+      "entity_name": "TEST SANCTIONS ENTITY",
+      "ofac_tickers": [
+        "ZEC"
+      ],
+      "programs": [
+        "SDGT"
+      ]
+    }
+  ],
+  "last_updated": "2026-03-23T20:08:35Z",
+  "source_list": "SDN",
+  "total_address_count": 12
+}

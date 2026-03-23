@@ -1,0 +1,62 @@
+{
+  "address_count": 3,
+  "addresses": [
+    {
+      "address": "0x1234567890abcdef1234567890abcdef12345678",
+      "date_listed": "2023-09-20",
+      "entity_id": 70001,
+      "entity_name": "MULTI CHAIN ENTITY",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "USDC"
+      ],
+      "programs": [
+        "CYBER2"
+      ],
+      "source_feature_ids": [
+        80001
+      ]
+    },
+    {
+      "address": "0x7F367cC41522cE07553e823bf3be79A889DEbe1B",
+      "date_listed": "2022-04-14",
+      "entity_id": 39498,
+      "entity_name": "LAZARUS GROUP",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "ETH"
+      ],
+      "programs": [
+        "CYBER2",
+        "DPRK3"
+      ],
+      "source_feature_ids": [
+        52341
+      ]
+    },
+    {
+      "address": "0xd882cFc20F52f2599D84b8e8D58C7FB62cfE344b",
+      "date_listed": "2022-04-14",
+      "entity_id": 39498,
+      "entity_name": "LAZARUS GROUP",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "ETH",
+        "USDT"
+      ],
+      "programs": [
+        "CYBER2",
+        "DPRK3"
+      ],
+      "source_feature_ids": [
+        52342,
+        55102,
+        55103
+      ]
+    }
+  ],
+  "chain": "ethereum",
+  "last_updated": "2026-03-23T20:08:35Z",
+  "source_list": "SDN",
+  "source_xml_url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml"
+}

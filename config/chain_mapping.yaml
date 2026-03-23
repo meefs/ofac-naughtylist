@@ -1,0 +1,60 @@
+# Tickers that map 1:1 to a chain (no address format inference needed)
+direct_mappings:
+  XBT: bitcoin
+  ETH: ethereum
+  XMR: monero
+  LTC: litecoin
+  ZEC: zcash
+  DASH: dash
+  BTG: bitcoin_gold
+  ETC: ethereum_classic
+  BSV: bitcoin_sv
+  BCH: bitcoin_cash
+  XVG: verge
+  XRP: ripple
+  ARB: arbitrum
+  BSC: bsc
+  TRX: tron
+
+# Tickers that are multi-chain tokens — require address format inference
+multi_chain_tickers:
+  - USDT
+  - USDC
+  # Add more as OFAC lists them
+
+# Address format rules (evaluated in order, first match wins)
+address_patterns:
+  - pattern: "^0x[0-9a-fA-F]{40}$"
+    chain: ethereum
+    note: "EVM-compatible 20-byte address. Could also be Arbitrum, BSC, etc. Defaults to ethereum unless ticker provides more context."
+
+  - pattern: "^T[1-9A-HJ-NP-Za-km-z]{33}$"
+    chain: tron
+    note: "Tron base58 address starting with T"
+
+  - pattern: "^(bc1|[13])[a-zA-HJ-NP-Z0-9]{25,62}$"
+    chain: bitcoin
+    note: "Bitcoin mainnet (legacy, segwit, bech32)"
+
+  - pattern: "^[LM3][a-km-zA-HJ-NP-Z1-9]{26,33}$"
+    chain: litecoin
+
+  - pattern: "^r[0-9a-zA-Z]{24,34}$"
+    chain: ripple
+
+  - pattern: "^4[0-9AB][1-9A-HJ-NP-Za-km-z]{93}$"
+    chain: monero
+    note: "Monero standard address (95 chars starting with 4)"
+
+  - pattern: "^t1[0-9a-zA-Z]{33}$"
+    chain: zcash
+    note: "Zcash transparent address"
+
+  - pattern: "^X[1-9A-HJ-NP-Za-km-z]{33}$"
+    chain: dash
+
+# EVM ticker disambiguation: when a multi-chain token has a 0x address,
+# these tickers override the default "ethereum" chain assignment.
+evm_ticker_overrides:
+  ARB: arbitrum
+  BSC: bsc

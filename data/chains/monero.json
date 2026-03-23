@@ -1,0 +1,25 @@
+{
+  "address_count": 1,
+  "addresses": [
+    {
+      "address": "4A1BpBgHEVmjdLRWCFpYYzKvSHBGLgSLqF6bRcJHjHEZicxMGMPMQHiRg2FMVgqMPHh3EqD8RNE8KYS3kJf93cRK2RfFg",
+      "date_listed": "2023-01-10",
+      "entity_id": 50001,
+      "entity_name": "TEST SANCTIONS ENTITY",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "XMR"
+      ],
+      "programs": [
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        60001
+      ]
+    }
+  ],
+  "chain": "monero",
+  "last_updated": "2026-03-23T20:08:35Z",
+  "source_list": "SDN",
+  "source_xml_url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml"
+}

@@ -1,0 +1,25 @@
+{
+  "address_count": 1,
+  "addresses": [
+    {
+      "address": "someunknownaddressformat12345",
+      "date_listed": "2023-06-15",
+      "entity_id": 60001,
+      "entity_name": "UNKNOWN TICKER ENTITY",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "NEWTICKER"
+      ],
+      "programs": [
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        70001
+      ]
+    }
+  ],
+  "chain": "unknown",
+  "last_updated": "2026-03-23T20:08:35Z",
+  "source_list": "SDN",
+  "source_xml_url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml"
+}

@@ -1,0 +1,31 @@
+{
+  "chains": {
+    "bitcoin": 2,
+    "dash": 1,
+    "ethereum": 3,
+    "litecoin": 1,
+    "monero": 1,
+    "ripple": 1,
+    "tron": 1,
+    "unknown": 1,
+    "zcash": 1
+  },
+  "last_updated": "2026-03-23T20:08:35Z",
+  "ofac_tickers_found": [
+    "DASH",
+    "ETH",
+    "LTC",
+    "NEWTICKER",
+    "USDC",
+    "USDT",
+    "XBT",
+    "XMR",
+    "XRP",
+    "ZEC"
+  ],
+  "schema_version": "1.0.0",
+  "source_list": "SDN",
+  "source_xml_url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml",
+  "total_addresses": 12,
+  "total_unique_entities": 5
+}

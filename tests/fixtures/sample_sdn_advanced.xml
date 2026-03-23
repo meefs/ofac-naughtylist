@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sanctions xmlns="https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ADVANCED_XML">
+  <DateOfIssue Day="23" Month="3" Year="2026" />
+
+  <ReferenceValueSets>
+    <FeatureTypeValues>
+      <FeatureType ID="101">
+        <FeatureTypeGroup FeatureTypeGroupID="1" />
+      </FeatureType>
+      <FeatureType ID="102">
+        <FeatureTypeGroup FeatureTypeGroupID="1" />
+      </FeatureType>
+    </FeatureTypeValues>
+    <DetailReferenceValues />
+  </ReferenceValueSets>
+
+  <Locations />
+
+  <IDRegDocuments />
+
+  <DistinctParties>
+
+    <!-- Entity 1: LAZARUS GROUP - multiple ETH addresses -->
+    <DistinctParty FixedRef="39498" DeltaAction="add">
+      <Comment />
+      <Profile>
+        <Identity>
+          <Alias AliasTypeID="1" Primary="true" LowQuality="false">
+            <DocumentedName>
+              <DocumentedNamePart>
+                <NamePartValue NamePartGroupID="1">LAZARUS GROUP</NamePartValue>
+              </DocumentedNamePart>
+            </DocumentedName>
+          </Alias>
+        </Identity>
+        <Feature FeatureTypeID="101" ID="52341">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - ETH</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>0x7F367cC41522cE07553e823bf3be79A889DEbe1B</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+        <Feature FeatureTypeID="101" ID="52342">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - ETH</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>0xd882cFc20F52f2599D84b8e8D58C7FB62cfE344b</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+        <Feature FeatureTypeID="101" ID="52343">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - XBT</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+      </Profile>
+      <SanctionsProgram>
+        <SanctionsProgramValue>CYBER2</SanctionsProgramValue>
+      </SanctionsProgram>
+      <SanctionsProgram>
+        <SanctionsProgramValue>DPRK3</SanctionsProgramValue>
+      </SanctionsProgram>
+      <DateOfRecord Day="14" Month="4" Year="2022" />
+    </DistinctParty>
+
+    <!-- Entity 2: GARANTEX - address under both ETH and USDT (multi-ticker) -->
+    <DistinctParty FixedRef="42001" DeltaAction="add">
+      <Comment />
+      <Profile>
+        <Identity>
+          <Alias AliasTypeID="1" Primary="true" LowQuality="false">
+            <DocumentedName>
+              <DocumentedNamePart>
+                <NamePartValue NamePartGroupID="1">GARANTEX EUROPE OU</NamePartValue>
+              </DocumentedNamePart>
+            </DocumentedName>
+          </Alias>
+        </Identity>
+        <Feature FeatureTypeID="101" ID="55102">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - ETH</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>0xd882cFc20F52f2599D84b8e8D58C7FB62cfE344b</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+        <Feature FeatureTypeID="101" ID="55103">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - USDT</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>0xd882cFc20F52f2599D84b8e8D58C7FB62cfE344b</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+        <Feature FeatureTypeID="101" ID="55104">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - USDT</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>TN2YVFiBnEhM2DFoDqGGoenYbGe8uVJJEY</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+        <Feature FeatureTypeID="101" ID="55105">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - XBT</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+      </Profile>
+      <SanctionsProgram>
+        <SanctionsProgramValue>CYBER2</SanctionsProgramValue>
+      </SanctionsProgram>
+      <DateOfRecord Day="5" Month="4" Year="2022" />
+    </DistinctParty>
+
+    <!-- Entity 3: TEST ENTITY - various chain addresses -->
+    <DistinctParty FixedRef="50001" DeltaAction="add">
+      <Comment />
+      <Profile>
+        <Identity>
+          <Alias AliasTypeID="1" Primary="true" LowQuality="false">
+            <DocumentedName>
+              <DocumentedNamePart>
+                <NamePartValue NamePartGroupID="1">TEST SANCTIONS ENTITY</NamePartValue>
+              </DocumentedNamePart>
+            </DocumentedName>
+          </Alias>
+        </Identity>
+        <Feature FeatureTypeID="101" ID="60001">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - XMR</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>4A1BpBgHEVmjdLRWCFpYYzKvSHBGLgSLqF6bRcJHjHEZicxMGMPMQHiRg2FMVgqMPHh3EqD8RNE8KYS3kJf93cRK2RfFg</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+        <Feature FeatureTypeID="101" ID="60002">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - LTC</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>LcHKx4Vy5Dxit94JYJ7pGg4dBbZFyv3Lz1</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+        <Feature FeatureTypeID="101" ID="60003">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - DASH</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>XekiLaxnqpFb2m4NQAEcsKutZcZgcyfo6W</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+        <Feature FeatureTypeID="101" ID="60004">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - ZEC</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>t1VpYgkRJB1iqMPRLM5oTgnihSbftyLkoGN</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+        <Feature FeatureTypeID="101" ID="60005">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - XRP</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+      </Profile>
+      <SanctionsProgram>
+        <SanctionsProgramValue>SDGT</SanctionsProgramValue>
+      </SanctionsProgram>
+      <DateOfRecord Day="10" Month="1" Year="2023" />
+    </DistinctParty>
+
+    <!-- Entity 4: UNKNOWN TICKER ENTITY - tests unknown bucket -->
+    <DistinctParty FixedRef="60001" DeltaAction="add">
+      <Comment />
+      <Profile>
+        <Identity>
+          <Alias AliasTypeID="1" Primary="true" LowQuality="false">
+            <DocumentedName>
+              <DocumentedNamePart>
+                <NamePartValue NamePartGroupID="1">UNKNOWN TICKER ENTITY</NamePartValue>
+              </DocumentedNamePart>
+            </DocumentedName>
+          </Alias>
+        </Identity>
+        <Feature FeatureTypeID="101" ID="70001">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - NEWTICKER</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>someunknownaddressformat12345</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+      </Profile>
+      <SanctionsProgram>
+        <SanctionsProgramValue>SDGT</SanctionsProgramValue>
+      </SanctionsProgram>
+      <DateOfRecord Day="15" Month="6" Year="2023" />
+    </DistinctParty>
+
+    <!-- Entity 5: EVM MULTI-CHAIN - tests USDC on ethereum via 0x address -->
+    <DistinctParty FixedRef="70001" DeltaAction="add">
+      <Comment />
+      <Profile>
+        <Identity>
+          <Alias AliasTypeID="1" Primary="true" LowQuality="false">
+            <DocumentedName>
+              <DocumentedNamePart>
+                <NamePartValue NamePartGroupID="1">MULTI CHAIN ENTITY</NamePartValue>
+              </DocumentedNamePart>
+            </DocumentedName>
+          </Alias>
+        </Identity>
+        <Feature FeatureTypeID="101" ID="80001">
+          <FeatureVersion>
+            <Comment>Digital Currency Address - USDC</Comment>
+            <VersionDetail>
+              <DetailReferenceValue>0x1234567890abcdef1234567890abcdef12345678</DetailReferenceValue>
+            </VersionDetail>
+          </FeatureVersion>
+        </Feature>
+      </Profile>
+      <SanctionsProgram>
+        <SanctionsProgramValue>CYBER2</SanctionsProgramValue>
+      </SanctionsProgram>
+      <DateOfRecord Day="20" Month="9" Year="2023" />
+    </DistinctParty>
+
+  </DistinctParties>
+
+</Sanctions>
