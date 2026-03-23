@@ -32,21 +32,21 @@ curl https://raw.githubusercontent.com/cylon56/ofac-naughtylist/main/data/all_ad
 
 > Last updated: **2026-03-23** | **772 addresses** across **83 sanctioned entities**
 
-| Chain | Addresses | File |
-| ----- | --------: | ---- |
-| Bitcoin | 521 | `data/chains/bitcoin.json` |
-| Tron | 124 | `data/chains/tron.json` |
-| Ethereum | 91 | `data/chains/ethereum.json` |
-| Litecoin | 10 | `data/chains/litecoin.json` |
-| Monero | 8 | `data/chains/monero.json` |
-| Bitcoin Cash | 7 | `data/chains/bitcoin_cash.json` |
-| Dash | 3 | `data/chains/dash.json` |
-| Zcash | 3 | `data/chains/zcash.json` |
-| Bitcoin Gold | 1 | `data/chains/bitcoin_gold.json` |
-| Bitcoin SV | 1 | `data/chains/bitcoin_sv.json` |
-| Ripple | 1 | `data/chains/ripple.json` |
-| Solana | 1 | `data/chains/solana.json` |
-| Verge | 1 | `data/chains/verge.json` |
+| Chain | Addresses | Last Added | File |
+| ----- | --------: | ---------- | ---- |
+| Bitcoin | 521 | 2026-03-12 | `data/chains/bitcoin.json` |
+| Tron | 124 | 2026-03-12 | `data/chains/tron.json` |
+| Ethereum | 91 | 2026-03-12 | `data/chains/ethereum.json` |
+| Litecoin | 10 | 2024-09-26 | `data/chains/litecoin.json` |
+| Monero | 8 | 2025-03-04 | `data/chains/monero.json` |
+| Bitcoin Cash | 7 | 2022-11-09 | `data/chains/bitcoin_cash.json` |
+| Dash | 3 | 2021-04-15 | `data/chains/dash.json` |
+| Zcash | 3 | 2021-04-15 | `data/chains/zcash.json` |
+| Bitcoin Gold | 1 | 2020-09-16 | `data/chains/bitcoin_gold.json` |
+| Bitcoin SV | 1 | 2020-09-10 | `data/chains/bitcoin_sv.json` |
+| Ripple | 1 | 2021-11-08 | `data/chains/ripple.json` |
+| Solana | 1 | 2025-11-19 | `data/chains/solana.json` |
+| Verge | 1 | 2021-04-15 | `data/chains/verge.json` |
 
 Additional supported chains (no current sanctions): Arbitrum, BSC, Ethereum Classic.
 
