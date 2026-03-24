@@ -2,6 +2,7 @@
 
 import logging
 import re
+import xml.etree.ElementTree as StdET
 from dataclasses import dataclass
 
 import defusedxml.ElementTree as ET
@@ -20,13 +21,13 @@ class SanctionedAddress:
     feature_id: int
 
 
-def get_namespace(root: ET.Element) -> dict[str, str]:
+def get_namespace(root: StdET.Element) -> dict[str, str]:
     """Extract namespace from root element tag."""
     match = re.match(r'\{(.+?)\}', root.tag)
     return {'ns': match.group(1)} if match else {}
 
 
-def _extract_entity_name(identity_elem: ET.Element, prefix: str) -> str:
+def _extract_entity_name(identity_elem: StdET.Element, prefix: str) -> str:
     """Extract the primary entity name from an Identity element."""
     for alias in identity_elem.findall(f"{prefix}Alias"):
         if alias.get("Primary", "").lower() != "true":
