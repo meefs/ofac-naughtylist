@@ -9484,6 +9484,22 @@
       ]
     },
     {
+      "address": "TNiq9AXBp9EjUqhDhrwrfvAA8U3GUQZH81",
+      "chain": "tron",
+      "date_listed": "2010-06-16",
+      "entity_id": 4632,
+      "entity_name": "BANK MARKAZI JOMHOURI ISLAMI IRAN",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "IRAN",
+        "IFSR",
+        "IRGC",
+        "SDGT"
+      ]
+    },
+    {
       "address": "TNmRfnSUXZoWWzxcDDbf95eGQYXt1mJDt8",
       "chain": "tron",
       "date_listed": "2025-05-29",
@@ -9815,6 +9831,22 @@
         "USDT"
       ],
       "programs": [
+        "SDGT"
+      ]
+    },
+    {
+      "address": "TTiDLWE6fZK8okMJv6ijg42yrH6W2pjSr9",
+      "chain": "tron",
+      "date_listed": "2010-06-16",
+      "entity_id": 4632,
+      "entity_name": "BANK MARKAZI JOMHOURI ISLAMI IRAN",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "IRAN",
+        "IFSR",
+        "IRGC",
         "SDGT"
       ]
     },
@@ -10206,5 +10238,5 @@
     }
   ],
   "source_list": "SDN",
-  "total_address_count": 772
+  "total_address_count": 774
 }

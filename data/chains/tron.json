@@ -1,5 +1,5 @@
 {
-  "address_count": 124,
+  "address_count": 126,
   "addresses": [
     {
       "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -1207,6 +1207,25 @@
       ]
     },
     {
+      "address": "TNiq9AXBp9EjUqhDhrwrfvAA8U3GUQZH81",
+      "date_listed": "2010-06-16",
+      "entity_id": 4632,
+      "entity_name": "BANK MARKAZI JOMHOURI ISLAMI IRAN",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "IRAN",
+        "IFSR",
+        "IRGC",
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        97667
+      ]
+    },
+    {
       "address": "TNmRfnSUXZoWWzxcDDbf95eGQYXt1mJDt8",
       "date_listed": "2025-05-29",
       "entity_id": 53953,
@@ -1614,6 +1633,25 @@
       ],
       "source_feature_ids": [
         70193
+      ]
+    },
+    {
+      "address": "TTiDLWE6fZK8okMJv6ijg42yrH6W2pjSr9",
+      "date_listed": "2010-06-16",
+      "entity_id": 4632,
+      "entity_name": "BANK MARKAZI JOMHOURI ISLAMI IRAN",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "IRAN",
+        "IFSR",
+        "IRGC",
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        97668
       ]
     },
     {
