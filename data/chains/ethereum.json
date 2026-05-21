@@ -1,5 +1,5 @@
 {
-  "address_count": 91,
+  "address_count": 97,
   "addresses": [
     {
       "address": "0x0330070FD38Ec3bB94F58FA55D40368271E9e54A",
@@ -15,6 +15,23 @@
       ],
       "source_feature_ids": [
         96364
+      ]
+    },
+    {
+      "address": "0x038989cbb1710c72b9920dc4fa529158f463e72c",
+      "date_listed": "2026-05-20",
+      "entity_id": 57107,
+      "entity_name": "Ojeda Aviles Armando de Jesus",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "ETH"
+      ],
+      "programs": [
+        "ILLICIT-DRUGS-EO14059",
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        96699
       ]
     },
     {
@@ -128,6 +145,23 @@
       ],
       "source_feature_ids": [
         91898
+      ]
+    },
+    {
+      "address": "0x14779CEC0B117d5194c750C55Ea1f42086631964",
+      "date_listed": "2026-05-20",
+      "entity_id": 57107,
+      "entity_name": "Ojeda Aviles Armando de Jesus",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "ETH"
+      ],
+      "programs": [
+        "ILLICIT-DRUGS-EO14059",
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        96700
       ]
     },
     {
@@ -280,6 +314,23 @@
       ]
     },
     {
+      "address": "0x32dA24Ca413F3E7B53145D4737e172C3bdF81e3e",
+      "date_listed": "2026-05-20",
+      "entity_id": 57107,
+      "entity_name": "Ojeda Aviles Armando de Jesus",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "ETH"
+      ],
+      "programs": [
+        "ILLICIT-DRUGS-EO14059",
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        96702
+      ]
+    },
+    {
       "address": "0x35fB6f6DB4fb05e6A4cE86f2C93691425626d4b1",
       "date_listed": "2019-09-13",
       "entity_id": 27307,
@@ -423,6 +474,23 @@
       ],
       "source_feature_ids": [
         44725
+      ]
+    },
+    {
+      "address": "0x4F428c11Dc82388fa5136D636e613ad923Eb700B",
+      "date_listed": "2026-05-20",
+      "entity_id": 57107,
+      "entity_name": "Ojeda Aviles Armando de Jesus",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "ETH"
+      ],
+      "programs": [
+        "ILLICIT-DRUGS-EO14059",
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        97385
       ]
     },
     {
@@ -1136,6 +1204,22 @@
       ]
     },
     {
+      "address": "0xaC4cC4B68ea24BbFAAC8fD127B67Ed445ACcCE22",
+      "date_listed": "2026-05-20",
+      "entity_id": 57118,
+      "entity_name": "Alarcon Palomares Rodrigo",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "ETH"
+      ],
+      "programs": [
+        "ILLICIT-DRUGS-EO14059"
+      ],
+      "source_feature_ids": [
+        96727
+      ]
+    },
+    {
       "address": "0xb338962B92CD818D6aef0A32a9ECD01212a71f33",
       "date_listed": "2022-04-05",
       "entity_id": 36025,
@@ -1430,6 +1514,23 @@
       ],
       "source_feature_ids": [
         64885
+      ]
+    },
+    {
+      "address": "0xf2235d55b2950a0b1317469d72d07ae65b2e27cb",
+      "date_listed": "2026-05-20",
+      "entity_id": 57107,
+      "entity_name": "Ojeda Aviles Armando de Jesus",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "ETH"
+      ],
+      "programs": [
+        "ILLICIT-DRUGS-EO14059",
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        96709
       ]
     },
     {
