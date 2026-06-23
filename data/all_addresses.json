@@ -8690,6 +8690,19 @@
       ]
     },
     {
+      "address": "TBXMiRqUp1XH1zLazWu8cWitMAScv4HsYq",
+      "chain": "tron",
+      "date_listed": "2026-06-22",
+      "entity_id": 57961,
+      "entity_name": "Abderrahmane Miloud",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ]
+    },
+    {
       "address": "TBYRhsZR7Mdn9ezpGVLwZiNVnGm8wZGLAD",
       "chain": "tron",
       "date_listed": "2017-09-26",
@@ -8848,6 +8861,19 @@
         "IRAN-EO13902",
         "SDGT",
         "IFSR"
+      ]
+    },
+    {
+      "address": "TDFj8tYzfLDkwEMo4MJ2DfrbpMztuCCnan",
+      "chain": "tron",
+      "date_listed": "2026-06-22",
+      "entity_id": 57961,
+      "entity_name": "Abderrahmane Miloud",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
       ]
     },
     {
@@ -10321,5 +10347,5 @@
     }
   ],
   "source_list": "SDN",
-  "total_address_count": 780
+  "total_address_count": 782
 }

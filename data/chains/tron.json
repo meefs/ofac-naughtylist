@@ -1,5 +1,5 @@
 {
-  "address_count": 126,
+  "address_count": 128,
   "addresses": [
     {
       "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -129,6 +129,22 @@
       ],
       "source_feature_ids": [
         93764
+      ]
+    },
+    {
+      "address": "TBXMiRqUp1XH1zLazWu8cWitMAScv4HsYq",
+      "date_listed": "2026-06-22",
+      "entity_id": 57961,
+      "entity_name": "Abderrahmane Miloud",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        98781
       ]
     },
     {
@@ -326,6 +342,22 @@
       ],
       "source_feature_ids": [
         95872
+      ]
+    },
+    {
+      "address": "TDFj8tYzfLDkwEMo4MJ2DfrbpMztuCCnan",
+      "date_listed": "2026-06-22",
+      "entity_id": 57961,
+      "entity_name": "Abderrahmane Miloud",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        98782
       ]
     },
     {
