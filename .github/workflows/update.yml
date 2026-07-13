@@ -33,14 +33,14 @@ jobs:
       - name: Check for changes
         id: diff
         run: |
-          git diff --quiet data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet data/ README.md && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         if: steps.diff.outputs.changed == 'true'
         run: |
           git config user.name "Naughtylist Bot"
           git config user.email "naughtylist-bot@users.noreply.github.com"
-          git add data/
+          git add data/ README.md
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
           ADDR_COUNT=$(python -c "import json; print(json.load(open('data/metadata.json'))['total_addresses'])")
           git commit -m "naughtylist updated — ${TIMESTAMP} — ${ADDR_COUNT} addresses checked twice"
