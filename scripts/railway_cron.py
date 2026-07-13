@@ -13,7 +13,6 @@ Required environment variables:
 import json
 import logging
 import os
-import re
 import subprocess
 import sys
 import tempfile
@@ -34,76 +33,6 @@ def run(cmd: list[str], **kwargs) -> subprocess.CompletedProcess:
     if result.returncode != 0 and result.stderr:
         logger.error(result.stderr.rstrip())
     return result
-
-
-_CHAIN_DISPLAY_NAMES = {
-    "bitcoin_cash": "Bitcoin Cash",
-    "bitcoin_gold": "Bitcoin Gold",
-    "bitcoin_sv": "Bitcoin SV",
-}
-
-
-def _chain_label(chain: str) -> str:
-    return _CHAIN_DISPLAY_NAMES.get(chain, chain.replace("_", " ").title())
-
-
-def update_readme(repo_dir: str, data_dir: str) -> None:
-    """Rewrite the 'Current sanctions snapshot' section of README.md from metadata."""
-    readme_path = os.path.join(repo_dir, "README.md")
-
-    with open(os.path.join(data_dir, "metadata.json")) as f:
-        meta = json.load(f)
-
-    last_updated = meta["last_updated"][:10]
-    total_addresses = meta["total_addresses"]
-    total_entities = meta["total_unique_entities"]
-
-    chains_dir = os.path.join(data_dir, "chains")
-    rows = []
-    for chain, count in meta["chains"].items():
-        try:
-            with open(os.path.join(chains_dir, f"{chain}.json")) as f:
-                chain_data = json.load(f)
-            last_added = max(
-                (a["date_listed"] for a in chain_data["addresses"] if a.get("date_listed")),
-                default="unknown",
-            )
-        except (FileNotFoundError, json.JSONDecodeError):
-            last_added = "unknown"
-        rows.append((chain, count, last_added))
-
-    rows.sort(key=lambda r: (-r[1], r[0]))
-
-    table = "\n".join([
-        "| Chain | Addresses | Last Added | File |",
-        "| ----- | --------: | ---------- | ---- |",
-        *[
-            f"| {_chain_label(c)} | {n} | {d} | `data/chains/{c}.json` |"
-            for c, n, d in rows
-        ],
-    ])
-
-    with open(readme_path) as f:
-        readme = f.read()
-
-    updated = re.sub(
-        r"> Last updated:.*",
-        f"> Last updated: **{last_updated}** | **{total_addresses} addresses** across **{total_entities} sanctioned entities**",
-        readme,
-    )
-    updated = re.sub(
-        r"\| Chain \| Addresses \| Last Added \| File \|.*?(?=\n\n)",
-        table,
-        updated,
-        flags=re.DOTALL,
-    )
-
-    if updated != readme:
-        with open(readme_path, "w") as f:
-            f.write(updated)
-        logger.info("Updated README snapshot section")
-    else:
-        logger.info("README snapshot section already up to date")
 
 
 def main() -> int:
@@ -135,8 +64,8 @@ def main() -> int:
             logger.error("Pipeline failed")
             return 1
 
-        # Update README snapshot section to reflect new data
-        update_readme(tmpdir, os.path.join(tmpdir, "data"))
+        # The pipeline (src.main) refreshes the README snapshot itself, so the
+        # commit below just needs to stage data/ and README.md.
 
         # Check for changes
         result = run(["git", "diff", "--quiet", "data/", "README.md"], cwd=tmpdir)

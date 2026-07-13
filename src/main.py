@@ -2,12 +2,14 @@
 
 import argparse
 import logging
+import os
 import sys
 
 from src.categorize import categorize_addresses, load_chain_mapping
 from src.fetch import download_sdn_xml
 from src.output import generate_output
 from src.parse import parse_sdn_xml
+from src.readme import update_readme
 
 SOURCES = {
     "SDN": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml",
@@ -85,6 +87,13 @@ def main() -> int:
             source_list=args.source,
             source_xml_url=source_xml_url,
         )
+
+        # Step 5: Refresh the README snapshot so it stays in sync with the data
+        # on every run (README lives one level above the data output dir).
+        readme_path = os.path.join(
+            os.path.dirname(os.path.abspath(args.output_dir)), "README.md"
+        )
+        update_readme(readme_path, args.output_dir)
 
         # Print summary
         total = sum(len(addrs) for addrs in categorized.values())

@@ -30,15 +30,15 @@ curl https://raw.githubusercontent.com/cylon56/ofac-naughtylist/main/data/all_ad
 
 ## Current sanctions snapshot
 
-> Last updated: **2026-04-25** | **774 addresses** across **84 sanctioned entities**
+> Last updated: **2026-07-02** | **916 addresses** across **88 sanctioned entities**
 
 | Chain | Addresses | Last Added | File |
 | ----- | --------: | ---------- | ---- |
 | Bitcoin | 521 | 2026-03-12 | `data/chains/bitcoin.json` |
-| Tron | 126 | 2026-03-12 | `data/chains/tron.json` |
-| Ethereum | 91 | 2026-03-12 | `data/chains/ethereum.json` |
+| Tron | 259 | 2026-06-22 | `data/chains/tron.json` |
+| Ethereum | 97 | 2026-05-20 | `data/chains/ethereum.json` |
+| Monero | 11 | 2025-03-04 | `data/chains/monero.json` |
 | Litecoin | 10 | 2024-09-26 | `data/chains/litecoin.json` |
-| Monero | 8 | 2025-03-04 | `data/chains/monero.json` |
 | Bitcoin Cash | 7 | 2022-11-09 | `data/chains/bitcoin_cash.json` |
 | Dash | 3 | 2021-04-15 | `data/chains/dash.json` |
 | Zcash | 3 | 2021-04-15 | `data/chains/zcash.json` |
@@ -90,7 +90,8 @@ See `data/metadata.json` for aggregate statistics and schema version.
 3. **Parse** XML to extract all "Digital Currency Address" features with entity metadata
 4. **Categorize** each address by chain using ticker mapping + address format inference
 5. **Generate** per-chain JSON files, combined file, and metadata
-6. **Commit** changes to `data/` if anything changed
+6. **Refresh** the snapshot table in this README from the new metadata
+7. **Commit** changes to `data/` and `README.md` if anything changed
 
 ## Running locally
 
@@ -156,8 +157,8 @@ Railway can run this as a daily cron job that automatically commits updated data
 The `scripts/railway_cron.py` script:
 
 1. Clones the repo (shallow) using the GitHub token
-2. Runs the full OFAC pipeline
-3. Commits and pushes any data changes back to the repository
+2. Runs the full OFAC pipeline (which also refreshes the README snapshot)
+3. Commits and pushes any `data/` or `README.md` changes back to the repository
 
 ### Cost
 
