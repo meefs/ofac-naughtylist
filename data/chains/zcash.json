@@ -1,6 +1,22 @@
 {
-  "address_count": 3,
+  "address_count": 4,
   "addresses": [
+    {
+      "address": "t1LHesgnkapziGQCJtrfZWYXhyjfTVo1dvh",
+      "date_listed": "2026-07-13",
+      "entity_id": 57978,
+      "entity_name": "Rashevskyi Dmytro",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "ZEC"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98898
+      ]
+    },
     {
       "address": "t1MMXtBrSp1XG38Lx9cePcNUCJj5vdWfUWL",
       "date_listed": "2021-04-15",

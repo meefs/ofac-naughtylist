@@ -1,6 +1,22 @@
 {
-  "address_count": 3,
+  "address_count": 5,
   "addresses": [
+    {
+      "address": "XcuGqRfrR85zyDrzVr1gSL5RNjwwpbu2KS",
+      "date_listed": "2026-07-13",
+      "entity_id": 57978,
+      "entity_name": "Rashevskyi Dmytro",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "DASH"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98897
+      ]
+    },
     {
       "address": "XnPFsRWTaSgiVauosEwQ6dEitGYXgwznz2",
       "date_listed": "2020-09-16",
@@ -15,6 +31,22 @@
       ],
       "source_feature_ids": [
         36474
+      ]
+    },
+    {
+      "address": "XowUeMFa1FkEUnAHL78E5oqpezMfSB6xP1",
+      "date_listed": "2026-07-13",
+      "entity_id": 57978,
+      "entity_name": "Rashevskyi Dmytro",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "DASH"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98901
       ]
     },
     {

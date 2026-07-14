@@ -1,5 +1,5 @@
 {
-  "address_count": 521,
+  "address_count": 525,
   "addresses": [
     {
       "address": "123WBUDmSJv4GctdVEz6Qq6z8nXSKrJ4KX",
@@ -1659,6 +1659,22 @@
       ]
     },
     {
+      "address": "1DfyWkiXVVqWfcSduj23qTDis9kb2qvRDa",
+      "date_listed": "2026-07-13",
+      "entity_id": 57978,
+      "entity_name": "Rashevskyi Dmytro",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "XBT"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98895
+      ]
+    },
+    {
       "address": "1Dpddb1TMjvmNQeYDqgyd1ww6cmwPJRdSk",
       "date_listed": "2022-04-05",
       "entity_id": 36216,
@@ -2827,6 +2843,22 @@
       ],
       "source_feature_ids": [
         49750
+      ]
+    },
+    {
+      "address": "1MTndG4K51RRMvkzyvguaHnQpiMLnxFGzM",
+      "date_listed": "2026-07-13",
+      "entity_id": 57978,
+      "entity_name": "Rashevskyi Dmytro",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "XBT"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98890
       ]
     },
     {
@@ -7064,6 +7096,22 @@
       ]
     },
     {
+      "address": "bc1qdnr88f4d2yqunnc4mjsguezm6g3mlwe44z5dw8",
+      "date_listed": "2026-07-13",
+      "entity_id": 57975,
+      "entity_name": "First VPN Service",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "XBT"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98857
+      ]
+    },
+    {
       "address": "bc1qdpazd6smrkq5hmw6lupq98za2fqtgmq3azv3av",
       "date_listed": "2024-05-28",
       "entity_id": 43421,
@@ -7736,6 +7784,22 @@
       ],
       "source_feature_ids": [
         85089
+      ]
+    },
+    {
+      "address": "bc1qr4ankqmvmrhce3ydvzse86dfx5s3zhehfr9tg9",
+      "date_listed": "2026-07-13",
+      "entity_id": 57975,
+      "entity_name": "First VPN Service",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "XBT"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98858
       ]
     },
     {

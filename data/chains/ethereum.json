@@ -1,5 +1,5 @@
 {
-  "address_count": 97,
+  "address_count": 100,
   "addresses": [
     {
       "address": "0x0330070FD38Ec3bB94F58FA55D40368271E9e54A",
@@ -247,6 +247,22 @@
       ]
     },
     {
+      "address": "0x1d19b52b54e7ef5ea1a4b40b616165e798eac9f8",
+      "date_listed": "2026-07-13",
+      "entity_id": 57978,
+      "entity_name": "Rashevskyi Dmytro",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "ETH"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98891
+      ]
+    },
+    {
       "address": "0x1da5821544e25c636c1417ba96ade4cf6d2f9b5a",
       "date_listed": "2021-04-15",
       "entity_id": 30518,
@@ -277,6 +293,38 @@
       ],
       "source_feature_ids": [
         70191
+      ]
+    },
+    {
+      "address": "0x2711d73d559f62f4f855ee21f38378f528e07985",
+      "date_listed": "2026-07-13",
+      "entity_id": 57975,
+      "entity_name": "First VPN Service",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "ETH"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98859
+      ]
+    },
+    {
+      "address": "0x2C7DcD774b33e10367F7d6385479e04F97d179dc",
+      "date_listed": "2026-07-13",
+      "entity_id": 57978,
+      "entity_name": "Rashevskyi Dmytro",
+      "evm_compatible": true,
+      "ofac_tickers": [
+        "ETH"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98903
       ]
     },
     {

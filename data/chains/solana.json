@@ -1,5 +1,5 @@
 {
-  "address_count": 1,
+  "address_count": 5,
   "addresses": [
     {
       "address": "42RLPACwZPx3vYYmxSueqsogfynBDqXK298EDsNoyoHi",
@@ -15,6 +15,70 @@
       ],
       "source_feature_ids": [
         94579
+      ]
+    },
+    {
+      "address": "DHzAVdEoL3PjGeLWNdEJwwMA1CeQ9J9Cpo",
+      "date_listed": "2026-07-13",
+      "entity_id": 57978,
+      "entity_name": "Rashevskyi Dmytro",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "DOGE"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98896
+      ]
+    },
+    {
+      "address": "DTqpKQ96rqkTvHcohQQd9BksmgRjasHgGo",
+      "date_listed": "2026-07-13",
+      "entity_id": 57978,
+      "entity_name": "Rashevskyi Dmytro",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "DOGE"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98900
+      ]
+    },
+    {
+      "address": "Fc1EwQUZyTEagaDvA1utHXCcZNyG1x2PLt2DfNu1cJdH",
+      "date_listed": "2026-07-13",
+      "entity_id": 57978,
+      "entity_name": "Rashevskyi Dmytro",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "SOL"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98893
+      ]
+    },
+    {
+      "address": "FuCC7GoYwt5TsNTjWL23Xx9UKCvC18chjMEFPL3vJDCC",
+      "date_listed": "2026-07-13",
+      "entity_id": 57978,
+      "entity_name": "Rashevskyi Dmytro",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "SOL"
+      ],
+      "programs": [
+        "CYBER4"
+      ],
+      "source_feature_ids": [
+        98904
       ]
     }
   ],
