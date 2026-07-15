@@ -8930,6 +8930,22 @@
       ]
     },
     {
+      "address": "TAhwhFv3JpK39Nc2m8W5LPCcoTisutiRfp",
+      "chain": "tron",
+      "date_listed": "2010-06-16",
+      "entity_id": 4632,
+      "entity_name": "BANK MARKAZI JOMHOURI ISLAMI IRAN",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "IRAN",
+        "IFSR",
+        "IRGC",
+        "SDGT"
+      ]
+    },
+    {
       "address": "TAoLw5yD5XUoHWeBZRSZ1ExK9HMv2CiPvP",
       "chain": "tron",
       "date_listed": "2025-11-19",
@@ -9886,6 +9902,22 @@
       ]
     },
     {
+      "address": "TFQbqaNbmq2xsVor2NbufLkYZvxFC9wC7k",
+      "chain": "tron",
+      "date_listed": "2010-06-16",
+      "entity_id": 4632,
+      "entity_name": "BANK MARKAZI JOMHOURI ISLAMI IRAN",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "IRAN",
+        "IFSR",
+        "IRGC",
+        "SDGT"
+      ]
+    },
+    {
       "address": "TFS2LHNcrffdAVRHpDUpNvnmCHs78cSNbz",
       "chain": "tron",
       "date_listed": "2015-09-29",
@@ -10367,6 +10399,22 @@
       ],
       "programs": [
         "FTO",
+        "SDGT"
+      ]
+    },
+    {
+      "address": "TJdgB1k6ot3f2nLuZug6D8eD3HavTmzmSK",
+      "chain": "tron",
+      "date_listed": "2010-06-16",
+      "entity_id": 4632,
+      "entity_name": "BANK MARKAZI JOMHOURI ISLAMI IRAN",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "IRAN",
+        "IFSR",
+        "IRGC",
         "SDGT"
       ]
     },
@@ -12196,6 +12244,22 @@
       ]
     },
     {
+      "address": "TXGHxdYbGy574z5hBu4LNzq9NzjZQ9bhUf",
+      "chain": "tron",
+      "date_listed": "2010-06-16",
+      "entity_id": 4632,
+      "entity_name": "BANK MARKAZI JOMHOURI ISLAMI IRAN",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "IRAN",
+        "IFSR",
+        "IRGC",
+        "SDGT"
+      ]
+    },
+    {
       "address": "TXHb3BkGgYmygyS14MJKX8kTcFGT7dXN4r",
       "chain": "tron",
       "date_listed": "2015-09-29",
@@ -12483,5 +12547,5 @@
     }
   ],
   "source_list": "SDN",
-  "total_address_count": 936
+  "total_address_count": 940
 }

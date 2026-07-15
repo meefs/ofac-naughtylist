@@ -10,12 +10,12 @@
     "monero": 11,
     "ripple": 1,
     "solana": 5,
-    "tron": 262,
+    "tron": 266,
     "verge": 1,
     "zcash": 4
   },
-  "last_checked": "2026-07-14T00:45:58Z",
-  "last_updated": "2026-07-14T00:04:04Z",
+  "last_checked": "2026-07-15T00:02:31Z",
+  "last_updated": "2026-07-15T00:02:31Z",
   "ofac_tickers_found": [
     "ARB",
     "BCH",
@@ -40,6 +40,6 @@
   "schema_version": "1.0.0",
   "source_list": "SDN",
   "source_xml_url": "https://www.treasury.gov/ofac/downloads/sanctions/1.0/sdn_advanced.xml",
-  "total_addresses": 936,
+  "total_addresses": 940,
   "total_unique_entities": 90
 }
