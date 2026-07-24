@@ -8930,6 +8930,19 @@
       ]
     },
     {
+      "address": "TAhHpxPRwo1Bmm1A9m51uZ31tcB7EPq7SY",
+      "chain": "tron",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ]
+    },
+    {
       "address": "TAhwhFv3JpK39Nc2m8W5LPCcoTisutiRfp",
       "chain": "tron",
       "date_listed": "2010-06-16",
@@ -10213,6 +10226,19 @@
       ]
     },
     {
+      "address": "TGr2i8ZQiiMRjP3mWyQUH2MQBfKu8GJNqm",
+      "chain": "tron",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ]
+    },
+    {
       "address": "TGsNFrgWfbGN2gX25Wcf8oTejtxtQkvmEx",
       "chain": "tron",
       "date_listed": "2026-01-30",
@@ -10264,6 +10290,19 @@
       ],
       "programs": [
         "DPRK4"
+      ]
+    },
+    {
+      "address": "THJUJFyTnrBWb1ijWav7qfRBrjUuKgP49Z",
+      "chain": "tron",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
       ]
     },
     {
@@ -10593,6 +10632,19 @@
       ],
       "programs": [
         "FTO",
+        "SDGT"
+      ]
+    },
+    {
+      "address": "TLoG3vbjDgqmTD5bM7w9rMgA6ysaNReuRy",
+      "chain": "tron",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
         "SDGT"
       ]
     },
@@ -11145,6 +11197,19 @@
       ]
     },
     {
+      "address": "TPyE2oSoaysrXfLzwf9wetBVr9JudLwjtD",
+      "chain": "tron",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ]
+    },
+    {
       "address": "TQ5H49Wz3K57zNHmuXVp6uLzFwitxviABs",
       "chain": "tron",
       "date_listed": "2025-09-16",
@@ -11472,6 +11537,19 @@
       ],
       "programs": [
         "FTO",
+        "SDGT"
+      ]
+    },
+    {
+      "address": "TScXZTbDjjZ6a6jiC7dZjgCqfNo4vm7atV",
+      "chain": "tron",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
         "SDGT"
       ]
     },
@@ -11982,6 +12060,19 @@
       ],
       "programs": [
         "FTO",
+        "SDGT"
+      ]
+    },
+    {
+      "address": "TVgUsVzA7mpFExP4zS7HHbtKti6UuBDuwZ",
+      "chain": "tron",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
         "SDGT"
       ]
     },
@@ -12547,5 +12638,5 @@
     }
   ],
   "source_list": "SDN",
-  "total_address_count": 940
+  "total_address_count": 947
 }

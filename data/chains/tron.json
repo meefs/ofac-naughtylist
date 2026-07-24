@@ -1,5 +1,5 @@
 {
-  "address_count": 266,
+  "address_count": 273,
   "addresses": [
     {
       "address": "TA3941uFAvmVibSkQ6fMJXxmaSNovX86mz",
@@ -116,6 +116,22 @@
       ],
       "source_feature_ids": [
         99080
+      ]
+    },
+    {
+      "address": "TAhHpxPRwo1Bmm1A9m51uZ31tcB7EPq7SY",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        99803
       ]
     },
     {
@@ -1684,6 +1700,22 @@
       ]
     },
     {
+      "address": "TGr2i8ZQiiMRjP3mWyQUH2MQBfKu8GJNqm",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        99805
+      ]
+    },
+    {
       "address": "TGsNFrgWfbGN2gX25Wcf8oTejtxtQkvmEx",
       "date_listed": "2026-01-30",
       "entity_id": 56865,
@@ -1747,6 +1779,22 @@
       ],
       "source_feature_ids": [
         93782
+      ]
+    },
+    {
+      "address": "THJUJFyTnrBWb1ijWav7qfRBrjUuKgP49Z",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        99806
       ]
     },
     {
@@ -2149,6 +2197,22 @@
       ],
       "source_feature_ids": [
         99040
+      ]
+    },
+    {
+      "address": "TLoG3vbjDgqmTD5bM7w9rMgA6ysaNReuRy",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        99802
       ]
     },
     {
@@ -2820,6 +2884,22 @@
       ]
     },
     {
+      "address": "TPyE2oSoaysrXfLzwf9wetBVr9JudLwjtD",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        99800
+      ]
+    },
+    {
       "address": "TQ5H49Wz3K57zNHmuXVp6uLzFwitxviABs",
       "date_listed": "2025-09-16",
       "entity_id": 55502,
@@ -3220,6 +3300,22 @@
       ],
       "source_feature_ids": [
         98998
+      ]
+    },
+    {
+      "address": "TScXZTbDjjZ6a6jiC7dZjgCqfNo4vm7atV",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        99804
       ]
     },
     {
@@ -3841,6 +3937,22 @@
       ],
       "source_feature_ids": [
         99032
+      ]
+    },
+    {
+      "address": "TVgUsVzA7mpFExP4zS7HHbtKti6UuBDuwZ",
+      "date_listed": "2026-07-23",
+      "entity_id": 58199,
+      "entity_name": "Al-Jebouri Zaid Issam Ahmed",
+      "evm_compatible": false,
+      "ofac_tickers": [
+        "TRX"
+      ],
+      "programs": [
+        "SDGT"
+      ],
+      "source_feature_ids": [
+        99801
       ]
     },
     {
